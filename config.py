@@ -3,13 +3,13 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", "25276967"))
-API_HASH = getenv("API_HASH", "daf793293a5a244e5c426a129656e0a1")
+API_ID = int(getenv("API_ID", "24210243"))
+API_HASH = getenv("API_HASH", "509031fb3790b968e489f71d591ebce5")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "7446465090").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "8050649116").split()))
 MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "-1002493565037")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002329264016"))
+LOG_GROUP = getenv("LOG_GROUP", "-1002294535138")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002458919549"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
